@@ -29,12 +29,19 @@
     transition-timing-function: ease-in;
 }
 
-#headline{
+#project_headline{
+    text-align: center;
+    vertical-align: top;
+    font-size: 2em;
+    font-family: fantasy;
+    
+}
+
+.headline {
     text-align: center;
     vertical-align: top;
     font-size: 60px;
     font-family: fantasy;
-    
 }
 
 .contact{
