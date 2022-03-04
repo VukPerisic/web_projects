@@ -1,0 +1,119 @@
+.splash-page {
+    background-color: lightcyan;
+}
+
+.nav {
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.nav-button {
+    color: blue;
+    padding: 10px;
+    
+}
+
+.nav-button:hover::before {
+    transition-property: width;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
+}
+
+.nav-button:hover{
+    
+    color: pink;
+    transition-property: width;
+    transition-duration: 0s;
+    transition-timing-function: ease-in;
+}
+
+#headline{
+    text-align: center;
+    vertical-align: top;
+    font-size: 60px;
+    font-family: fantasy;
+    
+}
+
+.contact{
+    margin-top: 5px;
+    color: white;
+    text-align: left;
+    background-color: black;
+    margin-left: 78px;
+}
+
+.contact:hover::before{
+    transition-property: width;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
+}
+
+.contact:hover{
+    color: pink;
+    transition-property: width;
+    transition-duration: 0s;
+    transition-timing-function: ease-in;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: aliceblue;
+   
+}
+
+
+.basics-text{
+    font-size: 0.5em;
+    text-align: left;
+    font-size: 17px;
+
+}
+
+ 
+.arrow {
+    border: solid black;
+    height: 50px;
+    width: 50px;
+    border-width: 0px 20px 20px 0;
+    grid-gap: 10px;
+    animation: blinker 1s linear infinite;
+    -webkit-transform: rotate(225deg);
+    display: flex;
+    justify-content: space-around;
+    margin-left: 245px;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.proj-col {
+    background-color: rgb(248, 222, 222);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.proj-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#contact_center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,112 @@
+<!--
+    Please note that this HTML template is a starting point!
+    It is absolutely not comprehensive, and you will almost surely have to add more.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Your Personal Website: Template 1</title>
+</head>
+<body>
+    <div class="splash-page">
+        <div class="navbar">
+            <div class="logo"></div>
+            <div class="nav">
+                <div class="nav-button">About</div>
+                <div class="nav-button">Portfolio</div>
+                <a href = "#contact_center"><div class="nav-button">Contact</div></a>
+            </div>
+        </div>
+        <div class="headline">Vuk Perisic</div>
+    </div class = "container">
+        <div class = "container">
+            <div class = "basics-text">
+                <h2>A little bit about me...</h2>
+                <p style = "width: 300px;">
+                    I'm a sophomore studying Computer Science at UC Berkeley with an interest in full stack web applications
+                    and data analytics. I'm currently looking
+                    for an SWE summer intern role, so feel free to contact me if you have an opportunity
+                    or questions about my background or resume! Outside of school I like to 
+                    spend my time hiking, training judo, playing guitar, and exploring the Bay Area.
+                </p>
+                <a href = "#contact_center"><button class = "contact">Contact Me</button></a>
+                <a href="C:\Users\vukpe\OneDrive\Documents\swe_resume.pdf"><button class = "contact">Resume</button></a>
+                <p><i class = "arrow"></i></p>
+                <p><i class = "arrow2"></i></p>
+                <p><i class = "arrow3"></i></p>
+            </div>
+            <p style = "font-size: 100px;">&#128540;</p>
+            <img style = "width: 250px; height: auto;" src = "C:\Users\vukpe\full_stack\personal_website\photo.jpg">
+        </div>
+
+    </div>
+    <h1 class = "headline" style = "font-size: 2em;">Projects</h1>
+    <div class="portfolio">
+        
+        <div class="proj-col">
+            <div class="proj-name">eBay EvalAI</div>
+            <ul>
+                <li>Developed machine learning model to predict delivery date of a package based on past seller
+                    shipping informaon using XGBoost and scikit-learn libraries
+                </li>
+                <li>
+                    Prepared real-world dataset containing 2.5 million entries, missing values, and incorrect data in
+                    some cases for analysis using Pandas
+                </li>
+                <li>Placed on leaderboards with team of 4</li>
+            </ul>
+        </div>
+        <div class="proj-col">
+            <div class="proj-name">BeachHacks</div>
+            <ul>
+                <li>
+                    Won 1st Place and Best Interdisciplinary Hack in BeachHacks competition
+                </li>
+                <li>
+                    Worked with team of 5 to develop Leetcards, an app that takes in a picture of the user’s code as
+                    input, runs it through test cases, and returns whether it is a valid soluon to a given problem
+                </li>
+                <li>
+                    Wrote back end code that applied Pytesseract library to convert a picture of Python code to text,
+                    addressed formang errors, and ran the user’s code through test cases
+                </li>
+            </ul>
+        </div>
+        <div class="proj-col">
+            <div class="proj-name">Gitlet</div>
+            <ul>
+                <li>
+                    Replicated core funconality of Git version-control system
+                </li>
+                <li>
+                    Implemented features like reading file contents, making commits, viewing and restoring earlier
+                    versions of files, and merging changes between branches
+                </li>
+            </ul>
+        </div>
+        <div class="proj-col">
+            <div class="proj-name">Scheme Interpreter</div>
+            <ul>
+                <li>
+                    Built basic interpreter for the Scheme programming language in Python
+                </li>
+                <li>
+                    Parsed Scheme inputs in the form of strings and returned results of the evaluated expression
+                </li>
+                <li>
+                    Handled user-defined funcons, logical operators, variables, and built-in procedures
+                </li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div id = "contact_center">
+        <div class = "proj-name" style = "text-align: center;">Contact:</div>
+        <p style = "text-align: center">v_perisic@berkeley.edu</p>
+    </div>
+</body>
+</html>
