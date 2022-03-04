@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .splash-page {
     background-color: lightcyan;
 }
@@ -29,12 +32,23 @@
     transition-timing-function: ease-in;
 }
 
+.jump_section {
+    text-decoration: none;
+}
+
 #project_headline{
     text-align: center;
     vertical-align: top;
     font-size: 2em;
     font-family: fantasy;
     
+}
+
+#about_header {
+    text-align: center;
+    vertical-align: top;
+    font-size: 2em;
+    font-family: fantasy;
 }
 
 .headline {
@@ -93,6 +107,10 @@
     display: flex;
     justify-content: space-around;
     margin-left: 245px;
+}
+
+.arrow:hover {
+    -webkit-animation-name: none;
 }
 
 @keyframes blinker {
